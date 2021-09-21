@@ -1,0 +1,27 @@
+
+#include <limits.h>
+#include <errno.h>
+
+#include "abort.c"   
+#include "calloc.c"
+#include "memchr.c"
+#include "stpcpy.c"
+#include "strcmp.c"
+#include "strlen.c"
+#include "strrchr.c"
+#include "tolower.c"
+#include "atexit.c"
+#include "__cxa_atexit.c"
+#include "mempcpy.c"
+#include "strcat.c"
+#include "strcoll.c"
+#include "strncmp.c"
+#include "strtol.c"
+#include "toupper.c"
+#include "atoi.c"
+#include "htonl.c"	  
+#include "putchar.c"
+#include "strchr.c"
+#include "strcpy.c"
+#include "strncpy.c"
+#include "strtoul.c"

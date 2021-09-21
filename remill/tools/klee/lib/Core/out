@@ -1,0 +1,28 @@
+   0x00007ffff7bd2c00 <+0>:	sub    rsp,0x8
+=> 0x00007ffff7bd2c04 <+4>:	push   rcx
+   0x00007ffff7bd2c05 <+5>:	push   rdx
+   0x00007ffff7bd2c06 <+6>:	push   rsi
+   0x00007ffff7bd2c07 <+7>:	push   rdi
+   0x00007ffff7bd2c08 <+8>:	push   r8
+   0x00007ffff7bd2c0a <+10>:	push   r9
+   0x00007ffff7bd2c0c <+12>:	push   r10
+   0x00007ffff7bd2c0e <+14>:	push   r11
+   0x00007ffff7bd2c10 <+16>:	lea    rsi,[rip+0x160]        # 0x7ffff7bd2d77
+   0x00007ffff7bd2c17 <+23>:	mov    rdi,0xffffffffffffffff
+   0x00007ffff7bd2c1e <+30>:	call   0x7ffff7bd27c0 <dlsym@plt>
+   0x00007ffff7bd2c23 <+35>:	pop    r11
+   0x00007ffff7bd2c25 <+37>:	pop    r10
+   0x00007ffff7bd2c27 <+39>:	pop    r9
+   0x00007ffff7bd2c29 <+41>:	pop    r8
+   0x00007ffff7bd2c2b <+43>:	pop    rdi
+   0x00007ffff7bd2c2c <+44>:	pop    rsi
+   0x00007ffff7bd2c2d <+45>:	pop    rdx
+   0x00007ffff7bd2c2e <+46>:	pop    rcx
+   0x00007ffff7bd2c2f <+47>:	add    rsp,0x8
+   0x00007ffff7bd2c33 <+51>:	jmp    rax
+   0x00007ffff7bd2c35 <+53>:	ret    
+   0x00007ffff7bd2c36 <+54>:	int    0xa5
+   0x00007ffff7bd2c38 <+56>:	ret    
+   0x00007ffff7bd2c39 <+57>:	add    rsp,0x8
+   0x00007ffff7bd2c3d <+61>:	ret    
+

@@ -1,0 +1,20 @@
+TODO
+--
+implement a basic strtol for my own sanity and inner peace
+    - expand this template for other libc hooks
+    - add a thing for delayed constraint additions on the
+      original memory region
+
+create a new ABI template that is akin to libc function interception
+    - follow regular sycall calling conventions
+    - handle functions with variadic args and `rax`
+
+implement new shadow memory mapping for mallocs and free that
+follows its own allocation spec. 
+    - update writes and reads to check for "special bytes"
+    - come up with special byte spec
+
+probably should expand out some more emulated system calls 
+
+check slack and add the libc functions pag was talking about earlier 
+after malloc and free work nicely
